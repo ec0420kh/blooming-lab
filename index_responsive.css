@@ -1,0 +1,151 @@
+@media (max-width: 670px){
+    /* ロゴの位置 */
+    header {
+        padding-top: 2%;
+    }
+    /* ロゴの大きさ */
+    header .header-image img {
+    width: 60%;
+    }
+    /* ヘッダーメニュー（PC画面では非表示） */
+    .header-menus {
+        display: none;
+    }
+
+    /* スライドショー部分の背景 */
+    .background-slide-show {
+        background-image: none;
+    }
+    /* スライドショーの大きさ */
+    .slide-container {
+        width: 100%;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    /* 新着ニュース */
+    .news-wrapper h4 {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    .news-wrapper ul {
+        font-size: 70%;
+        margin: 10px auto 0 auto;
+        width: 90%;
+        height: 200px;
+        overflow: scroll;
+    }
+    /* 新着ニュースのタグの大きさや色の指定 */
+    .news-wrapper ul li .news-content .news-content-tag {
+        width: 110px;
+        padding: 0;
+    }
+
+    /* レギュラーイベント */
+    .regular-event-content h4 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .regular-event {
+        width: 80%;
+        margin: 20px auto 30px auto;
+    }
+
+    /* フッター前のライン */
+    .line {
+        display: none;
+    }
+
+    /* フッター */
+    /* フッター全体 */
+    .footer-container {
+        width: 100%;
+        /* flex-wrap: wrap; */
+        flex-direction: column-reverse;
+    }
+
+    /* フッターメニューリスト */
+    .footer-container .footer-menu {
+        width: 100%;
+    }
+    /* メニュー名の位置 */
+    .footer-container .footer-menu .footer-menu-name {
+        color: white;
+        background-color: black;
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .footer-container .footer-menu .footer-menu-name h6 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    /* メニューの位置 */
+    .footer-container .footer-menu ul {
+        padding-top: 0;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    /* 各メニューの装飾 */
+    .footer-container .footer-menu ul li {
+        padding-top: 10px;
+        border-top: 1px solid black;
+        padding-left: 5%;
+    }
+    .footer-container .footer-menu ul li a {
+        display: block;
+    }
+    .footer-container .footer-menu ul li a:hover {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+
+    .footer-container .sponser {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10%;
+        background-color: #d6d6d6;
+    }
+
+    /* スポンサーロゴの大きさや位置など */
+    .footer-container .sponser img {
+        max-width: 100%;
+        max-height: none;
+        width: auto;
+        height: auto;
+    }
+    .footer-container .sponser .nissui, .kitada, .blooming-logo {
+        position: relative;
+        width: 45%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* フッターフェイスブック */
+    .footer-container .facebook {
+        /* width: auto;
+        margin: 0 auto;
+        order: 1; */
+        display: none;
+    }
+
+    /* 著作権 */
+    .copyright {
+        font-size: 80%;
+    }
+
+    #show, #hide {
+        display: block;
+    }
+
+}
