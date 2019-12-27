@@ -10,7 +10,7 @@
         position: fixed;
         top:0;
         left: 0;
-        /* height:60px; */
+        height:50px;
         width:100%;
         background:#ffffff;
         z-index: 2;
@@ -21,7 +21,7 @@
     }
     /* ロゴの大きさ */
     header .header-image img {
-        width: 30%;
+        width: 42%;
     }
     /* ヘッダーメニュー（PC画面では非表示） */
     .header-menus {
@@ -35,7 +35,7 @@
     /* スライドショーの大きさ */
     .slide-container {
         width: 100%;
-        padding-top: 11%;
+        padding-top: 13%;
         padding-bottom: 0;
     }
 
