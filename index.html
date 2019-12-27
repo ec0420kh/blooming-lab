@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index_style.css">
-    <link rel="stylesheet" href="index_responsive.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index_css/index.css">
+    <link rel="stylesheet" href="../index_css/index_responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <title>Home/ブルーミングラボ</title>
 </head>
 <body>
-    <!-- ヘッダーロゴ -->
     <header>
-        <div class="header-image"><img src="https://www.blooming-lab.jp/_src/163/logo.png?v=1564889080185" alt=""></div>
-        <i class="fa fa-bars fa-2x" id="show"></i>
+        <!-- ナビゲーションメニュー -->
+        <div class="navigation">
+            <div class="btn-responsive">
+                <div class="btn-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">施設情報</a></li>
+                <li><a href="index.html">イベント</a></li>
+                <li><a href="index.html">お知らせ</a></li>
+                <li><a href="index.html">ボディケア</a></li>
+                <li><a href="index.html">スタッフ</a></li>
+                <li><a href="index.html">企業の方へ</a></li>
+                <li><a href="index.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="header-image"><a href="index.html"><img src="https://www.blooming-lab.jp/_src/163/logo.png?v=1564889080185" alt=""></a></div>
     </header>
 
     <!-- ヘッダーメニュー -->
@@ -33,9 +53,9 @@
         </div>
     </div>
 
+    <!-- スライドショー -->
     <div class="background-slide-show">
         <div class="slide-container">
-            <!-- スライドショー -->
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -59,6 +79,7 @@
             </div>
         </div>
     </div>
+
     <div class="backdround_color">
         <!-- 新着ニュース -->
             <div class="news-wrapper">
@@ -138,13 +159,14 @@
             </div>
     </div>
 
-    <!-- レギュラーイベント -->
-    <div class="regular-event-content">
+
+     <!-- レギュラーイベント -->
+     <div class="regular-event-content">
         <h4>定期イベント</h4>
         <div class="regular-event">
             <div class="card-deck">
                 <div class="card card-shadow">
-                    <img class="card-img-top" src="saturday.jpg" alt="レベルアップ練習会">
+                    <img class="card-img-top" src="../index_img/saturday.jpg" alt="レベルアップ練習会">
                     <div class="card-body">
                         <h5 class="card-title">レベルアップ練習会（火）</h5>
                         <p class="card-text">主に最大酸素摂取量を向上させることを目的としています。<br>メニューを週替わりに実施しております。</p>
@@ -153,7 +175,7 @@
                     </div>
                 </div>
                 <div class="card card-shadow">
-                    <img class="card-img-top" src="sunday.png" alt="ナイトラン">
+                    <img class="card-img-top" src="../index_img/sunday.png" alt="ナイトラン">
                     <div class="card-body">
                         <h5 class="card-title">ナイトラン（木）</h5>
                         <p class="card-text">週替わりで60分走・80分走を実施します。<br>ペースはサブ4(5分40秒/km)とサブ5（7分/km）の2つです。</p>
@@ -162,7 +184,7 @@
                     </div>
                 </div>
                 <div class="card card-shadow">
-                    <img class="card-img-top" src="saturday.jpg" alt="ランニングレッスン">
+                    <img class="card-img-top" src="../index_img/saturday.jpg" alt="ランニングレッスン">
                     <div class="card-body">
                         <h5 class="card-title">ランニングレッスン（土）</h5>
                         <p class="card-text">可動域を広げる動き作りとラダートレーニングです。<br>更に軽いインターバルを実施します。</p>
@@ -171,7 +193,7 @@
                     </div>
                 </div>
                 <div class="card card-shadow">
-                    <img class="card-img-top" src="sunday.png" alt="ロング走練習会">
+                    <img class="card-img-top" src="../index_img/sunday.png" alt="ロング走練習会">
                     <div class="card-body">
                         <h5 class="card-title">ロング走練習会（日）</h5>
                         <p class="card-text">毎月1回開催の開催で、20kmを目標に走ります。充実のエイド、荷物置きを用意いたしますので お1人でも安心してご参加可能です。</p>
@@ -206,13 +228,13 @@
             <!-- スポンサー -->
             <div class="sponser">
                 <div class="nissui">
-                    <img src="nissui.jpg" alt="">
+                    <img src="../index_img/nissui.jpg" alt="">
                 </div>
                 <div class="kitada abc">
-                    <img src="kitada.png" alt="">
+                    <img src="../index_img/kitada.png" alt="">
                 </div>
                 <div class="blooming-logo abc">
-                    <img src="blooming.jpg" alt="">
+                    <img src="../index_img/blooming.jpg" alt="">
                 </div>
             </div>
             <!-- フェイスブック -->
@@ -225,43 +247,17 @@
     </footer>
     <div class="copyright">Copyright © Blooming Lab. All Rights Reserved.</div>
 
-    <!-- カバー -->
-    <div id="cover"></div>
-
-    <!-- メニュー -->
-    <div id="menu">
-        <i class="fa fa-times fa-2x" id="hide"></i>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">施設情報</a></li>
-            <li><a href="index.html">イベント</a></li>
-            <li><a href="index.html">お知らせ</a></li>
-            <li><a href="index.html">ボディケア</a></li>
-            <li><a href="index.html">スタッフ</a></li>
-            <li><a href="index.html">企業の方へ</a></li>
-            <li><a href="index.html">お問い合わせ</a></li>
-        </ul>
-    </div>
 
 
     <script>
-        (function() {
-          'use strict';
-      
-          var show = document.getElementById('show');
-          var hide = document.getElementById('hide');
-      
-          show.addEventListener('click', function() {
-            document.body.className = 'menu-open';
-          });
-      
-          hide.addEventListener('click', function() {
-            document.body.className = '';
-          });
-        })();
-        </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        $(function() {
+            $('.nav-list').css('display','none');
+            $('.btn-responsive').on('click',function(){
+                $(this).toggleClass('open');
+                $('.nav-list').slideToggle('slow');
+                return false;
+            });
+        });
+    </script>
 </body>
 </html>
