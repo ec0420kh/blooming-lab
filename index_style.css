@@ -143,7 +143,7 @@ header .header-image img {
 
 /* スライドショー部分の背景 */
 .background-slide-show {
-  background-image: url("../index_img/background-slideshow.png");
+  background-image: url("background-slideshow.png");
   background-repeat: repeat;
 }
 
