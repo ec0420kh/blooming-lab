@@ -1,11 +1,27 @@
 @media (max-width: 670px){
+    header .navigation {
+        display: block;
+    }
     /* ロゴの位置 */
     header {
+        background-color: #fff;
         padding-top: 2%;
+        padding-bottom: 2%;
+        position: fixed;
+        top:0;
+        left: 0;
+        /* height:60px; */
+        width:100%;
+        background:#ffffff;
+        z-index: 2;
+    }
+    header .header-image {
+        text-align: left;
+        padding-left: 2%;
     }
     /* ロゴの大きさ */
     header .header-image img {
-    width: 60%;
+        width: 30%;
     }
     /* ヘッダーメニュー（PC画面では非表示） */
     .header-menus {
@@ -19,8 +35,7 @@
     /* スライドショーの大きさ */
     .slide-container {
         width: 100%;
-        margin: auto;
-        padding-top: 30px;
+        padding-top: 11%;
         padding-bottom: 0;
     }
 
@@ -142,10 +157,6 @@
     /* 著作権 */
     .copyright {
         font-size: 80%;
-    }
-
-    #show, #hide {
-        display: block;
     }
 
 }
