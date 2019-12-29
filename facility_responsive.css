@@ -41,13 +41,7 @@
         width: 45%;
     }
     .team-details {
-        opacity: 0;
-        position: absolute;
-        top: 70%;
-        left: 0;
-        padding: 5%;
-        overflow: hidden;
-        width: 100%;
+        top: 100%;
     }
     .team-details p {
         font-size: 12px;
