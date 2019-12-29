@@ -120,7 +120,7 @@ header .header-image img {
     position: relative;
     color: black;
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
     text-decoration: none;
     padding: 15px 0;
     display: block;
@@ -188,7 +188,7 @@ header .header-image img {
 
 .team-title {
   margin: 10px 0 7px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
   font-weight: 700;
 }
 
@@ -243,7 +243,7 @@ header .header-image img {
     padding: 100px 0;
     width: 80%;
     margin: 0 auto;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
     font-size: 17px;
     font-weight: 700;
     /* background-color: #eee; */
