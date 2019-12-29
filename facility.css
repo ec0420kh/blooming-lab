@@ -1,0 +1,704 @@
+.btn-responsive{
+    position:absolute ;
+    top: 10%;
+    right: 2%;
+    background:#ffffff;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btn-icon{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.btn-icon span{
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    transition: .35s ease-in-out;
+}
+
+.btn-icon span:nth-child(1){
+}
+.btn-icon span:nth-child(2){
+}
+.btn-icon span:nth-child(3){
+}
+
+.open .btn-icon span:nth-child(1){
+    transform: translateY(12px) rotate(315deg);
+}
+.open .btn-icon span:nth-child(2){
+    width: 0;
+    left: 50%;
+}
+.open .btn-icon span:nth-child(3){
+    transform:translateY(-16px) rotate(-315deg);
+}
+
+.nav-list{
+    position: absolute;
+    box-sizing:border-box;
+    top:50px;
+    width:100%;
+    height:auto;
+    margin:0;
+    background:#4c81e9;
+}
+
+header ul {
+    padding-left: 0;
+}
+
+header .nav-list li {
+    list-style: none;
+}
+
+header .nav-list li a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+header .navigation {
+    display: none;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    /* background: #eee; */
+    color: #333;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+  /* ヘッダー */
+header {
+    width:100%;
+    background:#ffffff;
+    padding-top: 20px;
+}
+header .header-image {
+    text-align: center;
+}
+  /* ロゴの大きさ */
+header .header-image img {
+    width: 40%;
+}
+
+  /* ヘッダーメニュー */
+.header-menus .header-menu {
+    margin-top: 20px;
+}
+.header-menus .header-menu ul {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.header-menus .header-menu ul li {
+    width: 12.5%;
+    list-style: none;
+    text-align: center;
+}
+.header-menus .header-menu ul li a {
+    position: relative;
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto';
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+.header-menus .header-menu ul li a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #aacd03;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .5s;
+}
+.header-menus .header-menu ul li a:hover::after {
+    transform: scale(1, 1);
+}
+
+/* 施設紹介 */
+.xdcfghv {
+  margin-bottom: 3%;
+}
+.xdcfghv .facility_introduction {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.6em;
+  color: black;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 2%;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.team-row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team-row .team-wrap {
+  width: 27%;
+}
+.team-row .team-wrap .team-member {
+  margin-top: 10%;
+}
+
+.team-img img {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
+
+.team-member,
+.team-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-title {
+  margin: 10px 0 7px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.overlay {
+  background-color: rgba(20,20,20,.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.team-details {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.team-details p {
+  color: #fff;
+}
+
+.team-img:hover .team-details {
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.team-img:hover .overlay {
+  opacity: 1;
+}
+
+/* イベント時の流れ */
+.time-line-container {
+    width: 100%;
+    background-color: #eaf8a3;
+}
+
+.time-line-container section {
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    /* background-color: #eee; */
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    background: #C5CAE9;
+    width: 5px;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+}
+
+.timeline-item:nth-child(even) .timeline-content .date {
+    right: auto;
+    left: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 35px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #008842 transparent transparent;
+}
+
+.timeline-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 35px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #008842;
+}
+
+.timeline-img {
+    width: 30px;
+    height: 30px;
+    background: #3F51B5;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+
+section a {
+    background: #3F51B5;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+}
+
+section a:hover, a:active, a:focus {
+    background: #32408f;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.timeline-card {
+    padding: 0 !important;
+}
+
+.timeline-card p {
+    padding: 0 20px;
+}
+
+.timeline-card a {
+    margin-left: 20px;
+}
+
+.timeline-item .timeline-img-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-img-header {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-img-header h3 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+blockquote {
+    margin-top: 30px;
+    color: #757575;
+    border-left-color: #3F51B5;
+    padding: 0 20px;
+}
+
+.date {
+    background: #FF4081;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 料金体系 */
+.pricing-table h3 {
+  margin: 0;
+}
+.pricing-table ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pricing-table a {
+  color: #e95846;
+  text-decoration: none;
+}
+
+.pricing-table-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.6em;
+  color: black;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  clear: both;
+}
+/** ========================
+* Contenedor
+============================*/
+.pricing-wrapper {
+  width: 80%;
+  margin: 80px auto;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+}
+
+.pricing-wrapper h1 {
+  text-align: center;
+}
+
+.price_structure {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.pricing-table {
+  margin: 0 10px;
+  text-align: center;
+  width: 300px;
+  /* float: left; */
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.pricing-title {
+  color: #FFF;
+  background: #e95846;
+  padding: 20px 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table .price {
+  background: #403e3d;
+  color: #fff;
+  font-size: 3.4em;
+  font-weight: 700;
+  padding: 20px 0;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table .price sup {
+  font-size: 0.4em;
+  position: relative;
+  left: 5px;
+}
+
+.table-list {
+  background: #FFF;
+  color: #403d3a;
+}
+
+.table-list li {
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 12px 8px;
+}
+
+.table-list li:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  color: #3fab91;
+  display: inline-block;
+  position: relative;
+  right: 5px;
+  font-size: 16px;
+}
+
+.table-list li span {
+  font-weight: 400;
+}
+
+.table-list li:nth-child(2n) {
+  background: #F0F0F0;
+}
+
+.table-buy {
+  background: #FFF;
+  padding: 15px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.table-buy p {
+  float: left;
+  color: #37353a;
+  font-weight: 700;
+  font-size: 2.4em;
+  margin: 0;
+}
+
+.table-buy p sup {
+  font-size: 0.5em;
+  position: relative;
+  left: 5px;
+}
+
+.table-buy .pricing-action {
+  float: right;
+  color: #FFF;
+  background: #e95846;
+  padding: 10px 16px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+  background: #cf4f3e;
+}
+
+/* アクセス */
+.map_wrapper {
+  width: 80%;
+  display: flex;
+  margin: 80px auto;
+  justify-content: space-around;
+}
+.map_container .googleMap {
+  width: 45%;
+}
+
+.map_container .contactUs {
+  width: 45%;
+}
+
+.map_wrapper .contactUs h1 {
+  margin-top: 0;
+  /* font-family: 'Knockout 49 A','Knockout 49 B'; */
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+  font-style: normal;
+}
+
+.map_wrapper .contactUs h3 {
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #aacd03;
+}
+
+.map_wrapper .contactUs p {
+  margin: 0px 0 7px 15px;
+}
+
+/* .map_wrapper .contactUs a {
+  padding: 3px 10px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #008842;
+} */
+.map_wrapper .contactUs button {
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
+}
+
+.map_wrapper .contactUs .btn-outline-primary {
+  color: #aacd03;
+  border: #aacd03 1px solid;
+}
+
+.map_wrapper .contactUs .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #aacd03;
+}
+
+/* ここからは変えない */
+.line {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* フッター */
+/* フッター全体 */
+.footer-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: black;
+}
+/* フッターメニューリスト */
+.footer-container .footer-menu {
+  width: 25%;
+  margin: 0 auto;
+}
+/* メニュー名の位置 */
+.footer-container .footer-menu .footer-menu-name {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.footer-container .footer-menu h6 {
+  font-weight: 700;
+}
+/* メニューの位置 */
+.footer-container .footer-menu ul {
+  padding-top: 20px;
+  padding-left: 40%;
+}
+/* 各メニューの装飾 */
+.footer-container .footer-menu ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-container .footer-menu ul li a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer-container .footer-menu ul li a:hover {
+  opacity: 0.5;
+}
+
+/* フッタースポンサー */
+.footer-container .sponser {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* スポンサーロゴの大きさや位置など */
+.footer-container .sponser img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.footer-container .sponser .nissui, .kitada, .blooming-logo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* フッターフェイスブック */
+.footer-container .facebook {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.facebook-tag {
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
