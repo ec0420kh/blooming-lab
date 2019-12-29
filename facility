@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="facility.css">
+    <link rel="stylesheet" href="facility_responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <title>施設情報/ブルーミングラボ</title>
+</head>
+<body>
+    <header>
+        <!-- ナビゲーションメニュー -->
+        <!-- スマホで見える -->
+        <div class="navigation">
+            <div class="btn-responsive">
+                <div class="btn-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="facility.html">施設情報</a></li>
+                <li><a href="index.html">イベント</a></li>
+                <li><a href="index.html">お知らせ</a></li>
+                <li><a href="index.html">ボディケア</a></li>
+                <li><a href="index.html">スタッフ</a></li>
+                <li><a href="index.html">企業の方へ</a></li>
+                <li><a href="index.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="header-image"><a href="index.html"><img src="https://www.blooming-lab.jp/_src/163/logo.png?v=1564889080185" alt=""></a></div>
+    </header>
+
+    <!-- ヘッダーメニュー -->
+    <!-- PCで見える -->
+    <div class="header-menus">
+        <div class="header-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="facility.html">施設情報</a></li>
+                <li><a href="index.html">イベント</a></li>
+                <li><a href="index.html">お知らせ</a></li>
+                <li><a href="index.html">ボディケア</a></li>
+                <li><a href="index.html">スタッフ</a></li>
+                <li><a href="index.html">企業の方へ</a></li>
+                <li><a href="index.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="xdcfghv">
+        <h2 class="facility_introduction">施設紹介</h2>
+    <div class="team-row">
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details">
+                            <p>ブルラボに入れば、まずこの受付へ！明るいスタッフが皆さんをお出迎えします。</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">受　付</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details text-center">
+                            <p>イベント参加の方はこちらにお集まり下さい。また、いろんなランナーの方やスタッフと交流してはいかがですか。</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">交流・講義スペース</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details text-center">
+                            <p>快適なランニングのために、コンディショニングとリカバリーをサポートします。ランニングによる身体の痛みや違和感などでお悩みの方、お気軽にご相談ください。</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">ボディケアスペース</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details text-center">
+                            <p>こちらの部屋で着替えを行います。XXXXXXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">ロッカールーム</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details text-center">
+                            <p>ロッカールームの中にあるシャワールームで、XXXXXXXXXXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">シャワールーム</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+
+        <div class="team-wrap">
+            <div class="team-member text-center">
+                <div class="team-img">
+                    <img src="http://lorempixel.com/400/200/">
+                    <div class="overlay">
+                        <div class="team-details text-center">
+                            <p>Our web design team will spend time with our digital marketing team.</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">パウダーコーナー</h6>
+                <!-- <span>Designer</span> -->
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="time-line-container">
+        <section class="timeline">
+            <div class="container">
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header">
+                            <h3>ブルーミングラボへ到着</h3>
+                        </div>
+                        <!-- <div class="date">25 MAY 2016</div> -->
+                        <p>ようこそ、ブルーミングラボへ！これから受付や着替えなど準備を行なっていきます。初めは緊張しますが、わからないことがあればブルーミングラボスタッフへお声掛けくださいね。</p>
+                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header">
+                            <h3>受　付</h3>
+                        </div>
+                        <!-- <div class="date">25 MAY 2016</div> -->
+                        <p>ブルラボへ入ると目の前に受付があります。そこで、イベントの参加の旨を伝えたり、ロッカー鍵の貸し出し、会計等を行います。</p>
+                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header">
+                            <h3>ロッカールームへ</h3>
+                        </div>
+                        <!-- <div class="date">25 MAY 2016</div> -->
+                        <p>受付が終われば男性なら2階、女性なら1階のロッカールームへ移動し、着替えを行います。鍵は自身で管理をお願いします。</p>
+                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header">
+                            <h3>講義ルームで待機</h3>
+                        </div>
+                        <!-- <div class="date">25 MAY 2016</div> -->
+                        <p>着替えが終われば、講義ルームへ戻り、イベント開始時間を待ちます。この間に隣のランナーの方やスタッフとお話ししてはいかがでしょうか。</p>
+                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header">
+                            <h3>イベントスタート！</h3>
+                        </div>
+                        <!-- <div class="date">25 MAY 2016</div> -->
+                        <p>ついにイベントスタートです。当日のイベント内容の説明や講義を受けて、自身のランニングライフに活かしてください。アジア大会チャンピオンからの科学的な指導も受けられるかも！</p>
+                        <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 料金表 -->
+    <div class="pricing-wrapper clearfix">
+        <!-- Titulo -->
+        <h1 class="pricing-table-title">料　金</h1>
+        <div class="price_structure">
+            <div class="pricing-table">
+                <h3 class="pricing-title">Visitor</h3>
+                <div class="price">¥750<sup>/ 回</sup></div>
+                <!-- Lista de Caracteristicas / Propiedades -->
+                <ul class="table-list">
+                    <li>ロッカーの貸し出し</li>
+                    <li>シャワーの貸し出し</li>
+                    <li>予約不要</li>
+                    <li>レンタルタオル：別途料金</li>
+                    <li>1回のみ利用</li>
+                </ul>
+                <!-- Contratar / Comprar -->
+                <!-- <div class="table-buy">
+                    <p>¥750<sup>/ 回</sup></p>
+                    <a href="#" class="pricing-action">Comprar</a>
+                </div> -->
+            </div>
+            <div class="pricing-table">
+                <h3 class="pricing-title">Regular</h3>
+                <div class="price">¥3,900<sup>/ 月</sup></div>
+                <!-- Lista de Caracteristicas / Propiedades -->
+                <ul class="table-list">
+                    <li>ロッカーの貸し出し</li>
+                    <li>シャワーの貸し出し</li>
+                    <li>契約ロッカー（別途¥1500）の権利獲得</li>
+                    <li>その日からお使いいただけます</li>
+                    <li>月に6回以上ご利用でお得！</li>
+                </ul>
+                <!-- Contratar / Comprar -->
+                <!-- <div class="table-buy">
+                    <p>¥3,900<sup>/ 月</sup></p>
+                    <a href="#" class="pricing-action">Comprar</a>
+                </div> -->
+            </div>
+            <div class="pricing-table">
+                <h3 class="pricing-title">Regular</h3>
+                <div class="price">¥38,000<sup>/ 年</sup></div>
+                <!-- Lista de Caracteristicas / Propiedades -->
+                <ul class="table-list">
+                    <li>ロッカーの貸出し</li>
+                    <li>シャワーの貸出し</li>
+                    <li>タオル無料貸出し</li>
+                    <li>契約ロッカー（別途¥1500）の権利獲得</li>
+                    <li>月に5回以上ご利用でお得！</li>
+                </ul>
+                <!-- Contratar / Comprar -->
+                <!-- <div class="table-buy">
+                    <p>¥38,000<sup>/ 年</sup></p>
+                    <a href="#" class="pricing-action">Comprar</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+
+    <!-- アクセス -->
+    <div class="map_container">
+        <div class="map_wrapper">
+            <div class="googleMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4153469329053!2d135.52870331526552!3d34.694702491047146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d694595555%3A0xb68ad07aacd030c5!2z44OW44Or44O844Of44Oz44KwIOODqeODnA!5e0!3m2!1sja!2sjp!4v1577581707294!5m2!1sja!2sjp" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="contactUs">
+                <h1>Blooming. Lab.</h1>
+                <h3>ADDRESS</h3>
+                <p>大阪府大阪市都島区片町2-2-64</p>
+                <h3>HOURS</h3>
+                <p><strong>平　日：</strong>17：00〜22：00</p>
+                <p><strong>土日祝：</strong>8：00〜17：00</p>
+                <p><strong>定休日：</strong>月曜日（月曜日が祝日の場合は翌火曜日）</p>
+                <p>夏季期間＜7月～9月＞はサマータイム営業となります。</p>
+                <p>詳しくはHPのお知らせでご案内いたします。または、お問い合わせ下さい。</p>
+                <h3>CONTACT</h3>
+                <p>TEL: 080-4027-9300</p>
+                <button type="button" class="btn btn-outline-primary"><strong>お問い合わせ</strong></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+    <footer>
+        <div class="footer-container">
+            <!-- フッターメニュー -->
+            <div class="footer-menu">
+                <div class="footer-menu-name">
+                    <h6>ブルーミングラボ</h6>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facility.html">施設情報</a></li>
+                    <li><a href="index.html">イベント</a></li>
+                    <li><a href="index.html">お知らせ</a></li>
+                    <li><a href="index.html">ボディケア</a></li>
+                    <li><a href="index.html">スタッフ</a></li>
+                    <li><a href="index.html">企業の方へ</a></li>
+                    <li><a href="index.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <!-- スポンサー -->
+            <div class="sponser">
+                <div class="nissui">
+                    <img src="nissui.jpg" alt="">
+                </div>
+                <div class="kitada abc">
+                    <img src="kitada.png" alt="">
+                </div>
+                <div class="blooming-logo abc">
+                    <img src="blooming.jpg" alt="">
+                </div>
+            </div>
+            <!-- フェイスブック -->
+                <div class="facebook">
+                    <div class="footer-facebook-name">
+                    </div>
+                    <div class="fb-page fb_iframe_widget facebook-tag" data-href="https://www.facebook.com/bloomingrun/" data-tabs="timeline" data-height="280" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=600&amp;height=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbloomingrun%2F&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline"><span style="vertical-align: bottom; width: 340px; height: 280px;"><iframe name="f1a524e76983254" width="1000px" height="280px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.10/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df23cfcaea7f89a8%26domain%3Dwww.blooming-lab.jp%26origin%3Dhttps%253A%252F%252Fwww.blooming-lab.jp%252Ff1c5fa3f677ec5c%26relation%3Dparent.parent&amp;container_width=600&amp;height=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbloomingrun%2F&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" style="border: none; visibility: visible; width: 340px; height: 280px;" class=""></iframe></span></div>
+                </div>
+        </div>
+    </footer>
+    <div class="copyright">Copyright © Blooming Lab. All Rights Reserved.</div>
+
+    <!-- <script src="time-line.js"></script> -->
+    <script>
+        $(function() {
+            $('.nav-list').css('display','none');
+            $('.btn-responsive').on('click',function(){
+                $(this).toggleClass('open');
+                $('.nav-list').slideToggle('slow');
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
