@@ -173,12 +173,13 @@ header .header-image img {
   text-transform: uppercase;
   font-family: 'Bitter', serif;
   letter-spacing: 0.06em;
-  font-size: calc(5.4rem + ((1vw - 0.64rem) * 2.1429));
+  font-size: calc(3.4rem + ((1vw - 0.64rem) * 2.1429));
   color: #fff;
   text-align: center;
   margin-top: 10vh;
-  padding: 5vw 10vw;
+  padding: 2vw 5vw;
   background-color: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
   min-width: 500px;
 }
 
