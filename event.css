@@ -147,7 +147,7 @@ header .header-image img {
   height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("../event/blulab-pic3.png") no-repeat center center fixed;
+  background: url("blulab-pic3.png") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -mox-background-size: cover;
@@ -161,7 +161,7 @@ header .header-image img {
   height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("../event/blulab-pic3.png") no-repeat center center fixed;
+  background: url("blulab-pic3.png") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -mox-background-size: cover;
