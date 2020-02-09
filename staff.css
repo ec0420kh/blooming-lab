@@ -1,6 +1,6 @@
 @font-face {
   font-family: TTNorms-Bold;
-  src: url(TTNorms-Bold.otf);
+  src: url("TTNorms-Bold.otf");
   }
 
 .btn-responsive{
