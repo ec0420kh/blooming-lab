@@ -1,3 +1,8 @@
+@font-face {
+  font-family: TTNorms-Bold;
+  src: url("TTNorms-Bold.otf");
+  }
+
 .btn-responsive{
   position:absolute ;
   top: 10%;
@@ -76,7 +81,6 @@ header .navigation {
 }
 
 body {
-  /* font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   /* background: #eee; */
   color: #333;
@@ -107,12 +111,14 @@ header .header-image img {
   margin-top: 20px;
 }
 .header-menus .header-menu ul {
+  width: 60%;
   display: flex;
   padding-left: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .header-menus .header-menu ul li {
-  width: 12.5%;
+  width: 10%;
   list-style: none;
   text-align: center;
 }
@@ -120,9 +126,10 @@ header .header-image img {
   position: relative;
   color: black;
   font-weight: 700;
-  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+  /* font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana; */
+  font-family: "TTNorms-Bold","Koburina Gothic W3 JIS2004";
   text-decoration: none;
-  padding: 15px 0;
+  padding: 15px 0 5px 0;
   display: block;
 }
 .header-menus .header-menu ul li a::after {
