@@ -1,0 +1,553 @@
+@font-face {
+  font-family: TTNorms-Bold;
+  src: url("TTNorms-Bold.otf");
+  }
+
+.btn-responsive{
+  position:absolute ;
+  top: 10%;
+  right: 2%;
+  background:#ffffff;
+  width: 40px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.btn-icon{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.btn-icon span{
+  display: block;
+  height: 5px;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  transition: .35s ease-in-out;
+}
+
+.btn-icon span:nth-child(1){
+}
+.btn-icon span:nth-child(2){
+}
+.btn-icon span:nth-child(3){
+}
+
+.open .btn-icon span:nth-child(1){
+  transform: translateY(12px) rotate(315deg);
+}
+.open .btn-icon span:nth-child(2){
+  width: 0;
+  left: 50%;
+}
+.open .btn-icon span:nth-child(3){
+  transform:translateY(-16px) rotate(-315deg);
+}
+
+.nav-list{
+  position: absolute;
+  box-sizing:border-box;
+  top:50px;
+  width:100%;
+  height:auto;
+  margin:0;
+  background:#4c81e9;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+header .nav-list li {
+  list-style: none;
+}
+
+header .nav-list li a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 0;
+  display: block;
+  color: white;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+header .navigation {
+  display: none;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  /* background: #eee; */
+  color: #333;
+  padding: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+header {
+  width:100%;
+  background:#ffffff;
+  padding-top: 20px;
+}
+header .header-image {
+  text-align: center;
+}
+/* ロゴの大きさ */
+header .header-image img {
+  width: 40%;
+}
+/* ヘッダーメニュー */
+.header-menus .header-menu {
+  margin-top: 20px;
+}
+.header-menus .header-menu ul {
+  width: 60%;
+  display: flex;
+  padding-left: 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header-menus .header-menu ul li {
+  width: 10%;
+  list-style: none;
+  text-align: center;
+}
+.header-menus .header-menu ul li a {
+  position: relative;
+  color: black;
+  font-weight: 700;
+  /* font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana; */
+  font-family: "TTNorms-Bold","Koburina Gothic W3 JIS2004";
+  text-decoration: none;
+  padding: 15px 0 5px 0;
+  display: block;
+}
+.header-menus .header-menu ul li a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #aacd03;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .5s;
+}
+.header-menus .header-menu ul li a:hover::after {
+  transform: scale(1, 1);
+}
+/* ここまで一緒 */
+
+/* トップ */
+.concept {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.concept-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept-container .pictures {
+  width:70%;
+}
+
+.concept-container .pictures .noflow {
+  width: 80%;
+}
+
+.concept-container .pictures .flowt {
+  display: block;
+  position: absolute;
+  width: 40%;
+  top: 15rem;
+  z-index: 10;
+}
+.concept-container .sentense {
+  width: 30%;
+  position: relative;
+  right: 7rem;
+}
+
+.concept-container .sentense h2 {
+  font-size: 2rem;
+  color: #d4ab37;
+  font-family: "Josefin Sans",sans-serif;
+  margin-bottom: 2rem;
+  letter-spacing: 0.6rem;
+}
+
+.concept-container .sentense h3 {
+  font-family: YakuHanMP, "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, "Noto Serif JP", serif !important;
+  line-height: 1.9;
+  color: #006f62;
+  margin-bottom: 3rem;
+}
+
+.concept-container .sentense p {
+  line-height: 2.1;
+}
+
+
+/* 大渡さん */
+.owatari {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.owatari-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.owatari-container .owatari-comment h2 {
+  color: #d4ab37;
+  letter-spacing: 0.6rem;
+  margin-bottom: 2rem;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+.owatari-container .owatari-comment h3 {
+  font-family: YakuHanMP, "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, "Noto Serif JP", serif !important;
+  line-height: 1.9;
+  color: #006f62;
+  margin-bottom: 3rem;
+}
+
+.owatari-container .owatari-comment .comment {
+  line-height: 1.9;
+}
+
+.owatari-container .owatari-comment .owatari-intro {
+  color: #006f62;
+  line-height: 1.5;
+}
+
+.owatari-container .owatari-comment .owatari-intro span{
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.owatari-container .owatari-pic {
+  position: relative;
+  width: 30%;
+}
+
+.owatari-container .owatari-pic .owatari-picture {
+  width: 100%;
+}
+
+.owatari-container .owatri-comment {
+  widows: 70%;
+}
+
+
+/* タイトル */
+.main-title {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.main-title .main-title-container {
+  height: 500px;
+}
+
+.main-title .main-title-container .main-title1 .title-pic1 {
+  width: 65rem;
+  position: relative;
+  z-index: 3;
+}
+
+.main-title .main-title-container .main-title2{
+  height: 32rem;
+  width: 42rem;
+  background: #f6f6f6;
+  position: relative;
+  top: -27rem;
+  left: 50rem;
+}
+
+/* 料金表タイトル */
+.menu-title {
+  margin-top: 11rem;
+  margin-bottom: 5rem;
+}
+.menu-title p {
+  text-align: center;
+}
+
+.menu-title .omozi-title {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+  color: #d4ab37;
+  font-family: "Josefin Sans",sans-serif;
+}
+.menu-title .komozi-title {
+  font-size: 1.1rem;
+  color: #006f62;
+}
+
+/* 料金表 */
+.cost-table {
+  width:100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 5% auto;
+  padding: 0;
+  width: 60%;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #ebfc97;
+  padding: .35em;
+  border-bottom: 2px solid #fff;
+}
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 2px solid #fff;
+}
+table th {
+  font-size: 1rem;
+}
+table thead tr{
+  background-color: #008842;
+  color:#fff;
+  text-align: center;
+}
+table tbody th {
+  background: #aacd03;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+.txt{
+  text-align: left;
+  font-size: .85em;
+}
+.price{
+  text-align: right;
+  color: #167F92;
+  font-weight: bold;
+}
+.non{
+  background:#fff
+}
+
+/* 予約方法 */
+.booking {
+  text-align: center;
+}
+.reservation {
+  display: inline-block;
+  margin: 3rem auto 0 auto;
+}
+.reservation .reservation-way {
+  display: flex;
+  align-items: center;
+}
+.reservation-way .call {
+  width: 30rem;
+  height: 15rem;
+  position: relative;
+  background-color: #f3f3f3;
+}
+.reservation-way .web {
+  width: 30rem;
+  height: 15rem;
+  position: relative;
+  background-color: #e6edeb;
+}
+.reservation-way .call a,
+.reservation-way .web a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  color: #006f62;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.reservation-way .call a:hover,
+.reservation-way .web a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+/* 施術の流れ */
+.flow {
+  margin-bottom: 3rem;
+}
+.flow-container .border-line {
+  background-color: #555555;
+  margin: 0 auto;
+  width: 60%;
+  height: 3px;
+  z-index: 1;
+  position: relative;
+  top: 4rem;
+}
+.flow-container .flow-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+.flow-container .circle1,
+.flow-container .circle-defoult {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  border: #555555 3px solid;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.flow-container .circle1:hover {
+  border: #008842 3px solid;
+  background-color: #ebfc97;
+}
+.flow-container .flow-chart .circle-defoult{
+  border: #008842 3px solid;
+  background-color: #ebfc97;
+}
+.flow-container .flow-chart .circle-defoult a {
+  color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flow-container .flow-chart .circle-defoult a:hover {
+  text-decoration: none;
+  opacity: 0.3;
+}
+.flow-container .flow-chart .flow-chart1 p{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+
+
+
+/* ここからは変えない */
+.line {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* フッター */
+/* フッター全体 */
+.footer-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: black;
+}
+/* フッターメニューリスト */
+.footer-container .footer-menu {
+  width: 25%;
+  margin: 0 auto;
+}
+/* メニュー名の位置 */
+.footer-container .footer-menu .footer-menu-name {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.footer-container .footer-menu h6 {
+  font-weight: 700;
+}
+/* メニューの位置 */
+.footer-container .footer-menu ul {
+  padding-top: 20px;
+  padding-left: 40%;
+}
+/* 各メニューの装飾 */
+.footer-container .footer-menu ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-container .footer-menu ul li a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer-container .footer-menu ul li a:hover {
+  opacity: 0.5;
+}
+
+/* フッタースポンサー */
+.footer-container .sponser {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* スポンサーロゴの大きさや位置など */
+.footer-container .sponser img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.footer-container .sponser .nissui, .kitada, .blooming-logo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* フッターフェイスブック */
+.footer-container .facebook {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.facebook-tag {
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
