@@ -1,6 +1,6 @@
 @font-face {
   font-family: TTNorms-Bold;
-  src: url(../TTNorms-Bold.otf);
+  src: url("TTNorms-Bold.otf");
   }
 
 .btn-responsive{
@@ -129,7 +129,7 @@ header .header-image img {
   /* font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana; */
   font-family: "TTNorms-Bold","Koburina Gothic W3 JIS2004";
   text-decoration: none;
-  padding: 15px 0;
+  padding: 15px 0 5px 0;
   display: block;
 }
 .header-menus .header-menu ul li a::after {
