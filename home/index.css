@@ -87,6 +87,7 @@ header .header-image img {
 .header-menus .header-menu ul li a:hover::after {
   transform: scale(1, 1);
 }
+/* ここまで共通 */
 
 
 /* スライドショー */
@@ -197,6 +198,10 @@ header .header-image img {
 }
 
 
+
+
+/* ここから共通 */
+
 /* 最後の線 */
 .line {
   border: 1px solid black;
@@ -246,6 +251,11 @@ footer {
 }
 .footer-container .footer-menu ul li a {
   color: black;
+  transition: all 0.5s;
+}
+.footer-container .footer-menu ul li a:hover {
+  text-decoration: none;
+  opacity: 0.5;
 }
 
 /*　スポンサー */
