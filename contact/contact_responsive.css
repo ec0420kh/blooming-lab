@@ -1,0 +1,215 @@
+@media (max-width: 740px){
+    /* ハンバーガーメニューがスマホで見えるように */
+    header .navigation {
+        display: block;
+    }
+    /* ヘッダーメニュー（PC画面では非表示） */
+    .header-menus {
+        display: none;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* 三本線について */
+    .btn-responsive{
+        position:absolute ;
+        right: 4%;
+        background:#ffffff;
+        width: 8vw;
+        height: 8vw;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+    .btn-icon{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .btn-icon span{
+        display: block;
+        height: 0.9vw;
+        width: 100%;
+        background: #000;
+        border-radius: 2rem;
+        transition: .35s ease-in-out;
+    }
+    /* 三本線のうち１本目の動き */
+    .open .btn-icon span:nth-child(1){
+        transform: translateY(2.60vw) rotate(315deg);
+    }
+    /* 三本線のうち２本目の動き */
+    .open .btn-icon span:nth-child(2){
+        width: 0;
+        left: 50%;
+    }
+    /* 三本線のうち３本目の動き */
+    .open .btn-icon span:nth-child(3){
+        transform:translateY(-2.60vw) rotate(-315deg);
+    }
+
+
+    /* メニュー */
+    .nav-list{
+        position: absolute;
+        box-sizing:border-box;
+        top: 100%;
+        width:100%;
+        height:auto;
+        margin:0;
+        background:#4c81e9;
+    }
+    header ul {
+        padding-left: 0;
+    }
+    header .nav-list li {
+        list-style: none;
+    }
+    header .nav-list li a {
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px 0;
+        display: block;
+        color: white;
+        border-bottom: 2px solid white;
+        text-align: center;
+    }
+
+
+    /* ヘッダー */
+    header {
+        max-width: 100%;
+        background-color: #fff;
+        position: fixed;
+        top:0;
+        left: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        z-index: 2;
+        box-shadow: 0 0 5px 0 rgba(0,0,0, 0.6);
+    }
+
+
+    /* ロゴ */
+    /* 位置 */
+    header .header-image {
+        text-align: left;
+        padding-left: 2%;
+    }
+    /* 大きさ */
+    header .header-image img {
+        width: 42%;
+    }
+}
+
+
+
+/* ここから共通 */
+@media (max-width: 890px) {
+    /* 最後のライン */
+    .line {
+        display: none;
+    }
+    /* フッター */
+    /* 全体 */
+    .footer-container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    /* メニュー */
+    /* リスト */
+    footer .footer-container {
+        min-width: 0;
+    }
+    .footer-container .footer-menu {
+        width: 100%;
+        padding-right: 0;
+    }
+    /* 位置 */
+    .footer-container .footer-menu .footer-menu-name {
+        color: #fff;
+        background-color: #000;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    /* h6タグ */
+    .footer-container .footer-menu .footer-menu-name h6 {
+        margin-bottom: 0;
+        font-size: 20px;
+        letter-spacing: 0.50rem;
+    }
+    /* 位置２（笑） */
+    .footer-container .footer-menu ul {
+        padding-top: 0;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    /* 装飾 */
+    .footer-container .footer-menu ul li {
+        padding-top: 10px;
+        border-top: 1px solid black;
+        padding-left: 5%;
+    }
+    .footer-container .footer-menu ul li a {
+        display: block;
+    }
+    .footer-container .footer-menu ul li a:hover {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+
+    /* 　スポンサー */
+    /* 位置 */
+    .S-Sponser {
+        display: block;
+        width: 100%;
+        background-color: #d6d6d6;
+    }
+    .S-Sponser .S-Sponser-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .S-Sponser .S-Sponser-container .S-nissui,
+    .S-Sponser .S-Sponser-container .S-kitada,
+    .S-Sponser .S-Sponser-container .S-blooming-logo {
+        width: 48%;
+    }
+    .S-Sponser .S-Sponser-container .S-blooming-logo {
+        margin-top: 3%;
+    }
+    .S-Sponser .S-Sponser-container .S-kitada {
+        margin-left: 4%;
+    }
+    .S-Sponser .S-Sponser-container .S-nissui img,
+    .S-Sponser .S-Sponser-container .S-kitada img,
+    .S-Sponser .S-Sponser-container .S-blooming-logo img{
+        width: 100%;
+    }
+    .footer-container .sponser {
+        width: 100%;
+        background-color: #d6d6d6;
+        display: none;
+    }
+
+    /* フッターフェイスブック */
+    .footer-container .facebook {
+        display: none;
+    }
+
+    /* コピーライト */
+    .copyright {
+        font-size: 80%;
+    }
+}
