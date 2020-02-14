@@ -192,9 +192,11 @@ header .header-image img {
   margin-top: 2vw;
 }
 /* カードにマウスが乗った時 */
+.regular-event-content .regular-event .card-deck .card-shadow {
+  transition: all 0.5s;
+}
 .regular-event-content .regular-event .card-deck .card-shadow:hover {
   box-shadow: 0px 0px 6px gray;
-  transition: .5s;
 }
 
 
