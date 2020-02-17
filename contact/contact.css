@@ -90,7 +90,7 @@ header .header-image img {
 /* ここまで共通 */
 
 .formrun-embed iframe:nth-child(2){
-  display: none;
+  display: none!important;
 }
 
 
