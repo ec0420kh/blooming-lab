@@ -89,7 +89,7 @@ header .header-image img {
 }
 /* ここまで共通 */
 
-iframe:nth-child(2){
+.formrun-embed iframe:nth-child(2){
   display: none;
 }
 
