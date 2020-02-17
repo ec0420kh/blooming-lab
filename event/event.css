@@ -97,7 +97,7 @@ header .header-image img {
   height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("../image/blulab-pic3.jpg") no-repeat center center fixed;
+  background: url("../image/blulab-pic3.jpg") no-repeat fixed;
   background-size: contain;
   -webkit-background-size: cover;
   -mox-background-size: cover;
@@ -111,7 +111,7 @@ header .header-image img {
   height: 80vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("../image/blulab-pic3.jpg") no-repeat center center fixed;
+  background: url("../image/blulab-pic3.jpg") no-repeat fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -mox-background-size: cover;
