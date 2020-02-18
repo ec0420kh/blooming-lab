@@ -127,6 +127,7 @@ header .header-image img {
   font-size: 2rem;
   color: #d4ab37;
   font-family: "Josefin Sans",sans-serif;
+  font-family: 'Josefin Slab', serif;
   margin-bottom: 2rem;
   letter-spacing: 0.6rem;
 }
@@ -166,6 +167,7 @@ header .header-image img {
   letter-spacing: 0.6rem;
   margin-bottom: 2rem;
   font-family: "Josefin Sans",sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 .owatari-container .owatari-comment h3 {
@@ -245,6 +247,7 @@ header .header-image img {
   margin-bottom: 0;
   color: #d4ab37;
   font-family: "Josefin Sans",sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 .menu-title .komozi-title {
   font-size: 1.1rem;
