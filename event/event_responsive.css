@@ -127,6 +127,7 @@
         height: 60vw;
         background: url("../image/regular-event.jpg");
         background-size: cover;
+        margin-top: -1vh;
     }
     /* レギュラーイベント */
     .regular-event-content h4 {
